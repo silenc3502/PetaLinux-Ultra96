@@ -55,4 +55,4 @@ RUN echo "source /opt/pkg/petalinux/settings.sh" >> /home/vivado/.bashrc
 RUN rm -rf accept-eula.sh ${PETALINUX_INSTALLER}
 
 # copy Zybo-Z7-10 BSP
-ADD https://github.com/Digilent/Petalinux-Zybo-Z7-10/releases/download/v2017.4-1/Petalinux-Zybo-Z7-10-2017.4-1.bsp /home/vivado
+#ADD https://github.com/Digilent/Petalinux-Zybo-Z7-10/releases/download/v2017.4-1/Petalinux-Zybo-Z7-10-2017.4-1.bsp /home/vivado
